@@ -11,7 +11,7 @@ $Precio=$_POST['Precio'];
 $Descripcion=$_POST['Descripcion'];
 $Costo=$_POST['Costo'];
 
-$sql="UPDATE ventas SET  Producto='$Producto',Domicilio='$Domicilio',Categoria='$Categoria',Precio='$Precio',Descripcion='$Descripcion' ,Costo='$Costo' WHERE IDempleado='$IDventa'";
+$sql="UPDATE ventas SET  Producto='$Producto',Domicilio='$Domicilio',Categoria='$Categoria',Precio='$Precio',Descripcion='$Descripcion',Costo='$Costo' WHERE IDempleado='$IDventa'";
 $query=mysqli_query($con,$sql);
 
     if($query){
